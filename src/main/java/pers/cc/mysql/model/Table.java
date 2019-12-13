@@ -2,7 +2,7 @@ package pers.cc.mysql.model;
 
 import lombok.Data;
 
-import java.util.Map;
+import java.util.List;
 
 /**
  * @description:
@@ -13,6 +13,11 @@ import java.util.Map;
 public class Table {
 
     private String tableName;
+
+    private Prop id;
+    private String idType;
+
+    private List<Row> rowList;
 
 
 }

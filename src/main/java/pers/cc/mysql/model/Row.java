@@ -2,6 +2,8 @@ package pers.cc.mysql.model;
 
 import lombok.Data;
 
+import java.util.List;
+
 /**
  * @description:
  * @author: haochencheng
@@ -11,5 +13,7 @@ import lombok.Data;
 public class Row {
 
 
+
+    private List<Prop> rowDataList;
 
 }
